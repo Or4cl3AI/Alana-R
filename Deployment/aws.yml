@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: AWS CloudFormation Template for deploying MotorStack application
+Resources:
+  MotorStackApp:
+    Type: AWS::ElasticBeanstalk::Application
+    Properties:
+      Description: MotorStack Application
+
+  MotorStackAppVersion:
+    Type: AWS::ElasticBeanstalk::ApplicationVersion
+    Properties:
+      ApplicationName: 
+        Ref: MotorStackApp
+      SourceBundle:
+        S3Bucket: my-bucket
+        S3Key: motorstack.zip
+
+  MotorStackAppEnvironment:
+    Type: AWS::ElasticBeanstalk::Environment
+    Properties:
+      ApplicationName: 
+        Ref: MotorStackApp
+      TemplateName: 
+        Ref: MotorStackAppVersion
+      SolutionStackName: 64bit Amazon Linux 2018.03 v2.11.4 running Ruby 2.5 (Puma)
+
+Outputs:
+  ApplicationURL:
+    Description: The URL of the MotorStack application
+    Value: 
+      Fn::GetAtt: 
+        - MotorStackAppEnvironment
+        - EndpointURL

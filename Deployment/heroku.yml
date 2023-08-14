@@ -1,0 +1,19 @@
+```yaml
+build:
+  languages:
+    - ruby
+    - nodejs
+  addons:
+    postgresql: '12'
+  config:
+    RAILS_ENV: production
+    NODE_ENV: production
+run:
+  dir: Backend
+  cmd: 
+    - bundle install --without development:test
+    - npm install
+    - bundle exec rake db:migrate
+    - npm start
+```
+This is a basic Heroku configuration file for a Ruby on Rails application with Node.js for the frontend. It specifies the languages used, adds a PostgreSQL addon, sets environment variables, and defines the commands to run the application.
