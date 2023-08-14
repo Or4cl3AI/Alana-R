@@ -1,4 +1,3 @@
-```ruby
 module Motorhead
   class Conversation
     attr_accessor :user_id, :context, :messages
@@ -31,4 +30,3 @@ module Motorhead
     end
   end
 end
-```
