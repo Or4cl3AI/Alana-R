@@ -1,4 +1,3 @@
-```ruby
 module Alana
   include Motorhead
 
@@ -34,5 +33,24 @@ module Alana
   def text_to_speech(text)
     # Implementation for text-to-speech
   end
+
+  # Add front-end framework integration (React or Vue.js) to develop the user interface
+  def render_ui
+    # Implementation for rendering the user interface using React or Vue.js
+  end
+
+  # Integrate Motorhead's functionalities into the front-end
+  def integrate_motorhead
+    # Implementation for integrating Motorhead's functionalities into the front-end
+  end
 end
-```
+  # Add front-end framework integration (React or Vue.js) to develop the user interface
+  def render_ui
+    # Implementation for rendering the user interface using React or Vue.js
+  end
+
+  # Integrate Motorhead's functionalities into the front-end
+  def integrate_motorhead
+    # Implementation for integrating Motorhead's functionalities into the front-end
+  end
+end
