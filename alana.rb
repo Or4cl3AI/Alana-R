@@ -46,7 +46,3 @@ end
 Motorhead.configure do |config|
   config.cache = Redis.new  
 end
-
-
-You are out of free messages until 9 AM
-Get notified about paid plans
