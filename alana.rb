@@ -1,4 +1,6 @@
 # app/models/alana.rb
+# app/models/alana.rb
+# Required Ruby version: 2.7.3
 
 class Alana
   include Motorhead
