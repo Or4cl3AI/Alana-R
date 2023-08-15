@@ -1,4 +1,3 @@
-```yaml
 build:
   languages:
     - ruby
@@ -15,5 +14,3 @@ run:
     - npm install
     - bundle exec rake db:migrate
     - npm start
-```
-This is a basic Heroku configuration file for a Ruby on Rails application with Node.js for the frontend. It specifies the languages used, adds a PostgreSQL addon, sets environment variables, and defines the commands to run the application.
