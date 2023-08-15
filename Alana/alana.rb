@@ -32,6 +32,10 @@ module Alana
 
   def text_to_speech(text)
     # Implementation for text-to-speech
+    # Integrate text-to-speech functionality using libraries like Web Speech API or Amazon Polly
+    # Convert generated responses into audio for an immersive chat experience
+  end
+    # Convert generated responses into audio for an immersive chat experience
   end
 
   # Add front-end framework integration (React or Vue.js) to develop the user interface
