@@ -3,8 +3,8 @@
 ## Tech Stack
 Or4cl3AI/Alana-R is built on the following main stack:
 
-- [Ruby](https://www.ruby-lang.org) – Languages
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Ruby](https://www.ruby-lang.org) – Languages
 
 Full tech stack [here](/techstack.md)
 
@@ -14,8 +14,8 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 Or4cl3AI/Alana-R is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 
 Full tech stack [here](/techstack.md)
 
@@ -26,7 +26,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [Or4cl3AI/Alana-R](https://github.com/Or4cl3AI/Alana-R)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|3<br/>Tools used|01/05/24 <br/>Report generated|
+|3<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
